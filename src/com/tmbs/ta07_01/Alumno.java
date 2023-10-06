@@ -2,7 +2,6 @@ package com.tmbs.ta07_01;
 
 import java.util.Hashtable;
 
-import com.tmbs.ta07_02.Producto;
 /**
  * Clase que representa un Alumno
  *
@@ -10,7 +9,6 @@ import com.tmbs.ta07_02.Producto;
  * <li>private Hashtable <String, Integer> asignaturas;
  * <li>private Double notaPromedioCurso;
  * 
- * <ul> @param ArrayList {@link Producto } el carrito seran llena nuestas ventas.
  */
 public class Alumno {
 

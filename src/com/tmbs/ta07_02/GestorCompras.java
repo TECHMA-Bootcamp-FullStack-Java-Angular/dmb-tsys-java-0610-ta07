@@ -2,14 +2,14 @@ package com.tmbs.ta07_02;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-import utils.Utils;
+
 
 /**
- * Esta clase contiene la lógica de negocio del nuestra App según las directrices del Ejercicio
+ * Esta clase contiene la lï¿½gica de negocio del nuestra App segï¿½n las directrices del Ejercicio
  */
 public class GestorCompras {
 
-	// Declaramos Un ArrayList "Carrito" de productos donde añadiremos los Productos comprados
+	// Declaramos Un ArrayList "Carrito" de productos donde aï¿½adiremos los Productos comprados
 	static ArrayList<Producto> carrito = new ArrayList<Producto>();
 
 	static Scanner sc = new Scanner(System.in);
@@ -17,6 +17,7 @@ public class GestorCompras {
 	public static void run() {
 
 		String seguir = "S";
+		
 
 		System.out.println("****************** APP CAJA REGISTRADORA ******************");
 
@@ -49,7 +50,7 @@ public class GestorCompras {
 	}
 
 	/**
-	 * Método para pedir los datos de una compra al usuario. El método solicita el
+	 * Mï¿½todo para pedir los datos de una compra al usuario. El mï¿½todo solicita el
 	 * nombre del producto, el precio del producto y si el producto tiene IVA
 	 * reducido o no.
 	 * <p>
@@ -74,10 +75,10 @@ public class GestorCompras {
 	}
 
 	/**
-	 * Método que muestra un texto en la consola y espera a recibir una entrada del
+	 * Mï¿½todo que muestra un texto en la consola y espera a recibir una entrada del
 	 * usuario.
 	 * 
-	 * @param {@text String} el texto que se mostrará en la consola.
+	 * @param {@text String} el texto que se mostrarï¿½ en la consola.
 	 * @return String la entrada del usuario.
 	 **/
 	public static String consoleImput(String text) {
