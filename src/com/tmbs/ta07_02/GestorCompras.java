@@ -5,7 +5,7 @@ import java.util.Scanner;
 import utils.Utils;
 
 /**
- * Esta clase contiene la lógica de negocio del nuestra App sen según las directrices del Ejercicio
+ * Esta clase contiene la lógica de negocio del nuestra App según las directrices del Ejercicio
  */
 public class GestorCompras {
 
